@@ -2,7 +2,7 @@ LayoutExample
 ===
 React-Native Layout Example Code : [Origin-GitBook](https://g6ling.gitbooks.io/react-native-tutorial-korean/1-3ko.html)
 ---
-[Convert To new Example Code Using JSX & Hooks]
+[Convert To new Example Code Using JSX(ES6) & Hooks]
 ---
 <br>
 
@@ -13,4 +13,7 @@ React-Native Layout Example Code : [Origin-GitBook](https://g6ling.gitbooks.io/r
 
 
 ## 1.2 RN flexbox - 2
++ [React Native Docs: Text](https://reactnative.dev/docs/text.html#style)
+
+## 1.3 RN Code Spliting Using Component (ES6)
 + [React Native Docs: Text](https://reactnative.dev/docs/text.html#style)
