@@ -1,6 +1,6 @@
 LayoutExample
 ===
-React-Native Layout Example Code : [Origin-GItBook](https://g6ling.gitbooks.io/react-native-tutorial-korean/1-3ko.html)
+React-Native Layout Example Code : [Origin-GitBook](https://g6ling.gitbooks.io/react-native-tutorial-korean/1-3ko.html)
 ---
 
 # 1. Reat Native - UI
