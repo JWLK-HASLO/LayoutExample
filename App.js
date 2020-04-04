@@ -4,10 +4,15 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
     return (
         <View style={styles.container}>
-            <View style={styles.left}></View>
-            <View style={styles.right}>
-                <View style={styles.rightTop}></View>
-                <View style={styles.rightBottom}></View>
+            <View style={styles.navBar}>
+                <Text>Navigation Top Bar</Text>
+            </View>
+            <View style={styles.mainBody}>
+                <View style={styles.left}></View>
+                <View style={styles.right}>
+                    <View style={styles.rightTop}></View>
+                    <View style={styles.rightBottom}></View>
+                </View>
             </View>
         </View>
     );
@@ -16,6 +21,16 @@ export default function App() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        flexDirection: 'column',
+    },
+    navBar: {
+        height: 80,
+        backgroundColor: '#dddddd',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    mainBody: {
+        flex: 1,
         flexDirection: 'row',
     },
     left: {
@@ -23,7 +38,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'red',
     },
     right: {
-        flex: 1,
+        flex: 2,
         flexDirection: 'column',
     },
     rightTop: {
@@ -31,7 +46,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'blue',
     },
     rightBottom: {
-        flex: 1,
+        flex: 2,
         backgroundColor: 'yellow',
     },
 });
