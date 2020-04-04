@@ -16,4 +16,5 @@ React-Native Layout Example Code : [Origin-GitBook](https://g6ling.gitbooks.io/r
 + [React Native Docs: Text](https://reactnative.dev/docs/text.html#style)
 
 ## 1.3 RN Code Spliting Using Component (ES6)
-+ [React Native Docs: Text](https://reactnative.dev/docs/text.html#style)
++ [React Native Docs: JSX(ES6) Commponent Example ](https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822)
++ [React Native Docs: CSS Component Example](https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822)
